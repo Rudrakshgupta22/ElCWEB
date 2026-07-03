@@ -30,11 +30,11 @@ function About() {
 
         <div className="grid gap-6 sm:grid-cols-2">
           <div className="rounded-2xl border-2 border-brand-navy bg-brand-navy p-8 shadow-card text-center">
-            <div className="text-5xl font-black text-brand-gold">50+</div>
+            <div className="text-5xl font-black text-brand-gold">100+</div>
             <p className="mt-3 text-sm uppercase tracking-[0.24em] text-gray-300">Events Hosted</p>
           </div>
           <div className="rounded-2xl border-2 border-brand-navy bg-brand-navy p-8 shadow-card text-center">
-            <div className="text-5xl font-black text-brand-gold">300+</div>
+            <div className="text-5xl font-black text-brand-gold">50+</div>
             <p className="mt-3 text-sm uppercase tracking-[0.24em] text-gray-300">Active Members</p>
           </div>
           <div className="rounded-2xl border-2 border-brand-navy bg-brand-navy p-8 shadow-card text-center">
@@ -42,7 +42,7 @@ function About() {
             <p className="mt-3 text-sm uppercase tracking-[0.24em] text-gray-300">Industry Partners</p>
           </div>
           <div className="rounded-2xl border-2 border-brand-navy bg-brand-navy p-8 shadow-card text-center">
-            <div className="text-5xl font-black text-brand-gold">12</div>
+            <div className="text-5xl font-black text-brand-gold">5</div>
             <p className="mt-3 text-sm uppercase tracking-[0.24em] text-gray-300">Departments</p>
           </div>
         </div>

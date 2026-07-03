@@ -19,9 +19,9 @@ const upcomingEvents = [
 
 const flagshipEvents = [
   {
-    name: 'ELC Leadership Summit',
-    description: 'A flagship annual event bringing together students, professionals, and industry leaders for keynotes, panels, and networking.',
-    detailedDescription: 'Join industry titans, entrepreneurs, and thought leaders for a transformative experience featuring keynote sessions, panel discussions, and exclusive networking opportunities.',
+    name: 'Roadies',
+    description: 'A Thrilling flagship event packed with adventure and physical challenges ,where students push their limits to earn the title "Roadie of the Year"',
+   // detailedDescription: 'Join industry titans, entrepreneurs, and thought leaders for a transformative experience featuring keynote sessions, panel discussions, and exclusive networking opportunities.',
     stats: [
       { value: '500+', label: 'Participants' },
       { value: '20K+', label: 'Online Reach' },
@@ -34,8 +34,8 @@ const flagshipEvents = [
     ]
   },
   {
-    name: 'Industry Immersion Workshop',
-    description: 'Hands-on skill-building sessions led by senior professionals covering marketing, finance, and technology domains.',
+    name: 'Daawat',
+    description: 'A festive food fair where clubs sell homemade dishes on campus,celebrating Diwali with fun and flavour.',
     detailedDescription: 'Gain practical expertise through immersive workshops delivered by industry experts with real-world experience across multiple domains.',
     stats: [
       { value: '200+', label: 'Attendees' },
@@ -49,8 +49,8 @@ const flagshipEvents = [
     ]
   },
   {
-    name: 'ELC HackX - Innovation Challenge',
-    description: 'A 36-hour innovation sprint where teams ideate, build, and pitch solutions to real-world business and social challenges.',
+    name: 'Mid-night Sunrise',
+    description: 'A corporate networking event where students engage with industry leaders, gaining insights and building connections for future career growth in a relaxed interactivce setting.',
     detailedDescription: 'Transform ideas into reality in our intensive innovation marathon featuring mentorship, resources, and exciting prizes for breakthrough solutions.',
     stats: [
       { value: '150+', label: 'Participants' },
