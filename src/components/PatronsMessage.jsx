@@ -28,7 +28,7 @@ function PatronsMessage() {
               
               {/* Insert the image here */}
               <img 
-                src="../patron.png"
+                src="../../patron.png"
                 alt="Prof. Inderpal Singh - Patron" 
                 className="h-full w-full object-cover object-center"
               />
