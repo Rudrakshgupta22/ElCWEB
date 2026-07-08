@@ -1,12 +1,12 @@
 const sponsors = [
-  'Apex Ventures',
-  'Nebula Labs',
-  'Pulse Systems',
-  'Vertex Partners',
-  'Lumina Group',
-  'Arcadian Holdings',
-  'Zenith Media',
-  'Quantum Solutions'
+  'Luv Bite Waffles',
+  'Orange cafe',
+  'Rushabh Super Market',
+  'BookMyShow',
+  'The Waffle Bistro',
+  'MTV-VH1',
+  'Radisson',
+  'Sula Vines'
 ];
 
 function Sponsorship() {

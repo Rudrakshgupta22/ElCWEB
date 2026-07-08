@@ -17,7 +17,7 @@ const departments = [
     title: 'Marketing',
     description:
       'Aligns strategic positioning, campaigns, and brand messaging to elevate ELC’s corporate presence across campus and external stakeholders.',
-    cSuite: ['Chief Marketing Officer: Nupur Kumawat'],
+    cSuite: ['Nupur Kumawat'],
     vp: 'Yash Sharma',
     leads: ['Campaign Lead', 'Brand Lead', 'Analytics Lead']
   },
@@ -26,17 +26,17 @@ const departments = [
     title: 'Digital Marketing',
     description:
       'Executes digital growth initiatives, content strategy, media planning, and performance measurement for all ELC programs.',
-    cSuite: ['Chief Innovative Officer'],
-    vp: '[VP Digital Marketing]',
-    leads: ['SEO Lead', 'Social Media Lead', 'CRM Lead']
+    cSuite: ['Mohi Jain'],
+    vp: 'Rudransh Choudhary',
+    leads: ['Rudraksh gupta (Team Leader)', 'Vaishali Mehta', 'Vivaan Kashyap']
   },
   {
     icon: '.',
     title: 'Business Development',
     description:
       'Builds partner relationships, secures collaborations, and develops revenue-aligned sponsorship programs for ELC.',
-    cSuite: ['Chief Sales Officer'],
-    vp: '[VP Sales]',
+    cSuite: ['Jiya Patel'],
+    vp: 'Pal Jain',
     leads: ['Partnerships Lead', 'Corporate Relations Lead', 'Strategy Lead']
   },
   {
@@ -44,8 +44,8 @@ const departments = [
     title: 'Human Resources',
     description:
       'Owns talent acquisition, leadership development, and internal culture for a structured student-corporate organisation.',
-    cSuite: ['Chief People Officer'],
-    vp: '[VP Human Resources]',
+    cSuite: ['Mahek Kushwah'],
+    vp: 'Anchal Pandey',
     leads: ['Recruitment Lead', 'Engagement Lead', 'Culture Lead']
   },
   {
@@ -53,10 +53,20 @@ const departments = [
     title: 'Operations',
     description:
       'Delivers end-to-end execution, process governance, event logistics, and quality delivery for all ELC initiatives.',
-    cSuite: ['Chief Operations Officer'],
+    cSuite: ['Mitanshu Agrawal'],
     vp: '[VP Operations]',
     leads: ['Logistics Lead', 'Delivery Lead', 'Compliance Lead']
+  },
+{
+    icon: '.',
+    title: 'Finance',
+      description:
+        'Manages financial planning, budgeting, and resource allocation to ensure sustainable growth and operational efficiency for ELC.',
+    cSuite: ['Ruchit Bhalodiya'],
+    vp: 'Luvkishan Agrawal',
+    leads: ['Logistics Lead', 'Delivery Lead', 'Compliance Lead']
   }
+
 ];
 
 function Departments() {
