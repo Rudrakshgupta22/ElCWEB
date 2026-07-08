@@ -1,12 +1,12 @@
 const leadership = [
   {
     role: 'Chief Executive Officer',
-    name: '[CEO Name]',
+    name: 'Vallabh Dixit',
     title: 'Corporate Chief Executive Officer'
   },
   {
     role: 'Deputy Chief Executive Officer',
-    name: '[DCEO Name]',
+    name: 'Rutvi Parekh',
     title: 'Deputy Chief Executive Officer'
   }
 ];
@@ -17,8 +17,8 @@ const departments = [
     title: 'Marketing',
     description:
       'Aligns strategic positioning, campaigns, and brand messaging to elevate ELC’s corporate presence across campus and external stakeholders.',
-    cSuite: ['Chief Marketing Officer'],
-    vp: '[VP Marketing]',
+    cSuite: ['Chief Marketing Officer: Nupur Kumawat'],
+    vp: 'Yash Sharma',
     leads: ['Campaign Lead', 'Brand Lead', 'Analytics Lead']
   },
   {

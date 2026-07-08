@@ -17,7 +17,7 @@ function TeamRoster() {
     vicePresidents: [
       { role: 'VP Marketing', name: 'Yash Sharma',image: '/images/VP/yash2.jpeg' },
       { role: 'VP Operations', name: 'Krishna Wagh',image: '/images/VP/krishna.jpeg' },
-      { role: 'VP Sales', name: 'Pal Jain' },
+      { role: 'VP Sales', name: 'Pal Jain',image: '/images/VP/PAL.jpeg' },
       { role: 'VP Finance', name: 'Luvkishan Agrawal',image: '/images/VP/luv.jpeg' },
       { role: 'VP Innovation', name: 'Rudransh Choudhary',image: '/images/VP/rudransh.jpeg' },
       { role: 'VP HR', name: 'Anchal Pandey',image: '/images/VP/anchal.jpeg' },
