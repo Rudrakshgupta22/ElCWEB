@@ -5,22 +5,22 @@ function TeamRoster() {
 
   const team = {
     executives: [
-      { role: 'CEO', name: 'Vallabh Dixit', phone: '6380324734', email: 'vallabh.dixit@universalai.in' },
-      { role: 'DCEO', name: 'Rutvi Parekh', phone: '9909076100', email: 'Rutvi.Parekh@universalai.in' },
-      { role: 'COO', name: 'Mitanshu Agrawal', phone: '7300411055', email: 'Mitanshu.Agrawal@universalai.in' },
-      { role: 'CMO', name: 'Nupur Kumawat', phone: '6378372542', email: 'nupurkumawat@universalai.in' },
-      { role: 'CSO', name: 'Jiya Patel', phone: '7045229068', email: 'jiya.patel@universalai.in' },
-      { role: 'CFO', name: 'Ruchit Bhalodiya', phone: '9979350653', email: 'Ruchit.Bhalodiya@universalai.in' },
-      { role: 'CIO', name: 'Mohi Jain', phone: '7470417010', email: 'Mohi.jain@universalai.in' },
-      { role: 'CHRO', name: 'Mahek Kushwah', phone: '8815352210', email: 'Mahek.kushwah@universalai.in' }
+      { role: 'CEO', name: 'Vallabh Dixit', phone: '6380324734', email: 'vallabh.dixit@universalai.in', image: '/images/C-suites/vallabh.jpeg' },
+      { role: 'DCEO', name: 'Rutvi Parekh', phone: '9909076100', email: 'Rutvi.Parekh@universalai.in', image: '/images/C-suites/rutvi.jpeg' },
+      { role: 'COO', name: 'Mitanshu Agrawal', phone: '7300411055', email: 'Mitanshu.Agrawal@universalai.in', image: '/images/C-suites/mitanshu.jpeg' },
+      { role: 'CMO', name: 'Nupur Kumawat', phone: '6378372542', email: 'nupurkumawat@universalai.in', image: '/images/C-suites/nupur.jpeg' },
+      { role: 'CSO', name: 'Jiya Patel', phone: '7045229068', email: 'jiya.patel@universalai.in', image: '/images/C-suites/jiya.jpeg' },
+      { role: 'CFO', name: 'Ruchit Bhalodiya', phone: '9979350653', email: 'Ruchit.Bhalodiya@universalai.in', image: '/images/C-suites/ruchit.jpeg' },
+      { role: 'CIO', name: 'Mohi Jain', phone: '7470417010', email: 'Mohi.jain@universalai.in', image: '/images/C-suites/mohi.jpeg' },
+      { role: 'CHRO', name: 'Mahek Kushwah', phone: '8815352210', email: 'Mahek.kushwah@universalai.in', image: '/images/C-suites/mehek.jpeg' }
     ],
     vicePresidents: [
-      { role: 'VP Marketing', name: 'Yash Sharma' },
-      { role: 'VP Operations', name: 'Krishna Wagh' },
+      { role: 'VP Marketing', name: 'Yash Sharma',image: '/images/VP/yash2.jpeg' },
+      { role: 'VP Operations', name: 'Krishna Wagh',image: '/images/VP/krishna.jpeg' },
       { role: 'VP Sales', name: 'Pal Jain' },
-      { role: 'VP Finance', name: 'Luvkishan Agrawal' },
-      { role: 'VP Innovation', name: 'Rudransh Choudhary' },
-      { role: 'VP HR', name: 'Anchal Pandey' }
+      { role: 'VP Finance', name: 'Luvkishan Agrawal',image: '/images/VP/luv.jpeg' },
+      { role: 'VP Innovation', name: 'Rudransh Choudhary',image: '/images/VP/rudransh.jpeg' },
+      { role: 'VP HR', name: 'Anchal Pandey',image: '/images/VP/anchal.jpeg' },
     ]
   };
 
@@ -50,9 +50,13 @@ function TeamRoster() {
                   onClick={() => setExpandedTeam(expandedTeam === idx ? null : idx)}
                   className="group cursor-pointer rounded-2xl border-2 border-brand-gold/30 bg-brand-navy-light p-6 shadow-card transition hover:border-brand-gold hover:shadow-glow"
                 >
-                  <div className="aspect-square rounded-lg bg-gradient-to-br from-brand-gold/20 to-brand-navy-lighter flex items-center justify-center mb-4">
-                    <span className="text-3xl">👤</span>
-                  </div>
+                 <div className="aspect-square overflow-hidden rounded-lg mb-4">
+  <img
+    src={member.image}
+    alt={member.name}
+    className="w-full h-full object-cover"
+  />
+</div>
                   <p className="text-xs uppercase tracking-[0.24em] text-brand-gold font-bold">{member.role}</p>
                   <p className="text-lg font-bold text-white mt-2">{member.name}</p>
                   
@@ -76,9 +80,13 @@ function TeamRoster() {
                   key={idx}
                   className="rounded-2xl border-2 border-brand-gold/30 bg-brand-navy-light p-6 shadow-card transition hover:border-brand-gold hover:shadow-glow"
                 >
-                  <div className="aspect-square rounded-lg bg-gradient-to-br from-brand-gold/20 to-brand-navy-lighter flex items-center justify-center mb-4">
-                    <span className="text-3xl">👥</span>
-                  </div>
+                  <div className="aspect-square overflow-hidden rounded-lg mb-4">
+  <img
+    src={member.image}
+    alt={member.name}
+    className="w-full h-full object-cover"
+  />
+</div>
                   <p className="text-xs uppercase tracking-[0.24em] text-brand-gold font-bold">{member.role}</p>
                   <p className="text-lg font-bold text-white mt-2">{member.name}</p>
                 </div>
