@@ -52,17 +52,20 @@ function MediaKit() {
             </p>
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <a
-                href="#"
-                className="inline-flex items-center justify-center rounded-lg bg-brand-gold px-6 py-3 text-sm font-bold text-brand-navy transition hover:bg-brand-gold/90 hover:-translate-y-0.5"
-              >
-                Download Whitebook
-              </a>
-              <a
-                href="#"
-                className="inline-flex items-center justify-center rounded-lg border-2 border-brand-gold px-6 py-3 text-sm font-bold text-brand-gold transition hover:bg-brand-gold/10"
-              >
-                View Details
-              </a>
+  href="/documents/Whitebook.pdf"
+  download
+  className="inline-flex items-center justify-center rounded-lg bg-brand-gold px-6 py-3 text-sm font-bold text-brand-navy transition hover:bg-brand-gold/90 hover:-translate-y-0.5"
+>
+  Download Whitebook
+</a>
+             <a
+  href="/documents/Whitebook.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex items-center justify-center rounded-lg border-2 border-brand-gold px-6 py-3 text-sm font-bold text-brand-gold transition hover:bg-brand-gold/10"
+>
+  View Details
+</a>
             </div>
           </article>
         </div>
