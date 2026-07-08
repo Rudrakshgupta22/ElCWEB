@@ -21,7 +21,7 @@ function MediaKit() {
             </div>
             <h3 className="mt-8 text-2xl font-bold text-white">Executive Brochure</h3>
             <p className="mt-4 text-gray-300">
-              A concise overview of ELC's corporate vision, service pillars, event portfolio, and strategic value proposition for partners.
+              A comprehensive document covering our partnership packages, engagement metrics, sponsorship tiers, and delivery capabilities.
             </p>
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
              <a
@@ -48,7 +48,7 @@ function MediaKit() {
             </div>
             <h3 className="mt-8 text-2xl font-bold text-white">Stakeholder Whitebook</h3>
             <p className="mt-4 text-gray-300">
-              A comprehensive document covering our partnership packages, engagement metrics, sponsorship tiers, and delivery capabilities.
+              A concise overview of ELC's corporate vision, service pillars, event portfolio, and strategic value proposition for partners.
             </p>
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <a
