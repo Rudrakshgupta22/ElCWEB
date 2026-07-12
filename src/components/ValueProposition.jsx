@@ -3,17 +3,17 @@ function ValueProposition() {
     {
       icon: '🌍',
       title: 'Global CEO Interaction',
-      description: 'Network with renowned business leaders and executives across industries through our exclusive CXO series and corporate partnerships.'
+      description: 'Network with renowned business leaders and executives across industries through our exclusive CXO series.'
     },
     {
       icon: '📈',
-      title: 'Equity Holding & Capital Appreciation',
-      description: 'As a member of this private limited company, gain equity stakes and participate in the organization\'s growth and profitability.'
+      title: 'Capital Appreciation',
+      description: 'As a member of this private limited company,participate in the organization\'s growth and profitability.'
     },
     {
       icon: '💼',
       title: 'Industry Exposure & Real-World Skills',
-      description: 'Develop practical expertise through immersive projects, internships, and collaborations with leading organizations.'
+      description: 'Develop practical expertise through immersive projects, events, and collaborations with leading organizations and clubs.'
     },
     {
       icon: '🚀',
@@ -23,7 +23,7 @@ function ValueProposition() {
     {
       icon: '🤝',
       title: 'Professional Network',
-      description: 'Build lasting relationships with industry leaders, peers, and mentors that extend far beyond your university years.'
+      description: 'Build lasting relationships with corporate leaders, peers, and mentors that extend far beyond your university years.'
     },
     {
       icon: '🏆',
