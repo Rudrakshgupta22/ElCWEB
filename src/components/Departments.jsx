@@ -2,7 +2,7 @@ const leadership = [
   {
     role: 'Chief Executive Officer',
     name: 'Vallabh Dixit',
-    title: 'Corporate Chief Executive Officer'
+    title: 'Chief Executive Officer'
   },
   {
     role: 'Deputy Chief Executive Officer',
