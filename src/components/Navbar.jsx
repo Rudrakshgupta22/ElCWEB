@@ -158,6 +158,7 @@ const navigation = [
 function PremiumMatteNavbar() {
   const [activeSection, setActiveSection] = useState('patrons');
   const [scrolled, setScrolled] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -227,14 +228,45 @@ function PremiumMatteNavbar() {
             Join The Enterprise
           </a>
           
-          <button className="md:hidden text-[#E5B05C] p-2">
+          <button
+            onClick={() => setMenuOpen((open) => !open)}
+            type="button"
+            className="md:hidden text-[#E5B05C] p-2"
+            aria-label="Toggle mobile menu"
+          >
              <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
+                {menuOpen ? (
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+                ) : (
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
+                )}
              </svg>
           </button>
         </div>
 
       </div>
+
+      {menuOpen && (
+        <div className="md:hidden fixed inset-x-0 top-0 z-40 mt-[72px] bg-[#0A192F] border-t border-[#E5B05C]/20 shadow-xl">
+          <div className="mx-auto max-w-[1400px] px-6 py-6">
+            <div className="flex flex-col gap-4">
+              {navigation.map((link) => (
+                <a
+                  key={link.href}
+                  href={link.href}
+                  onClick={() => {
+                    setActiveSection(link.href.slice(1));
+                    setMenuOpen(false);
+                  }}
+                  className="block rounded-2xl border border-[#E5B05C]/20 bg-[#0A192F]/90 px-4 py-3 text-base font-medium text-[#E5B05C] transition hover:bg-[#E5B05C]/10"
+                >
+                  {link.label}
+                </a>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
     </header>
   );
 }

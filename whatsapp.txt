@@ -3,14 +3,15 @@ Hello team,
 The ELC website is ready for tomorrow's pitch/presentation.
 
 It includes:
-- A polished hero landing section with clear messaging and CTA buttons
-- A fully functional navigation menu
-- Featured flagship events and an event calendar
-- A responsive contact section and gallery modal
-- Updated branding assets and social links
+* A polished hero landing section with clear messaging and CTA buttons
+* A fully functional navigation menu
+* Featured flagship events and an event calendar
+* A responsive contact section and gallery modal
+* Updated branding assets and social links
+* Contact Infromation of all C-suites
+*It also features our whitebook and sponsorship brochure.
 
-
-
+Here is the link to the website -: elcweb.vercel.app
 Thanks,
 
-PS: No one should write messages in the contact us box; we have limited monthly allowance there.
+PS: No one should write messages in the contact us box; we have limited monthly allowance there 😭😭
