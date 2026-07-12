@@ -19,7 +19,7 @@ const departments = [
       'Aligns strategic positioning, campaigns, and brand messaging to elevate ELC’s corporate presence across campus and external stakeholders.',
     cSuite: ['Nupur Kumawat'],
     vp: 'Yash Sharma',
-    leads: ['Campaign Lead', 'Brand Lead', 'Analytics Lead']
+    leads: ['Shubh (Team Leader)', 'Ramanpreet', 'Surbhi Priya','Ishika Vaswani','Ayush Chowdhary','Shrayaskar']
   },
   {
     icon: '.',
@@ -37,7 +37,7 @@ const departments = [
       'Builds partner relationships, secures collaborations, and develops revenue-aligned sponsorship programs for ELC.',
     cSuite: ['Jiya Patel'],
     vp: 'Pal Jain',
-    leads: ['Partnerships Lead', 'Corporate Relations Lead', 'Strategy Lead']
+    leads: ['Shreya Anand (Team Leader)', 'Adtiya Tank', 'Khushi Bhatiya','Hiren Jurani']
   },
   {
     icon: '.',
@@ -46,7 +46,7 @@ const departments = [
       'Owns talent acquisition, leadership development, and internal culture for a structured student-corporate organisation.',
     cSuite: ['Mahek Kushwah'],
     vp: 'Anchal Pandey',
-    leads: ['Recruitment Lead', 'Engagement Lead', 'Culture Lead']
+    leads: ['Divya Chaturvedi (Team Leader)', 'Saloni Wagh', 'Ankita','Shikha','Mandvi']
   },
   {
     icon: '.',
@@ -54,7 +54,7 @@ const departments = [
     description:
       'Delivers end-to-end execution, process governance, event logistics, and quality delivery for all ELC initiatives.',
     cSuite: ['Mitanshu Agrawal'],
-    vp: '[VP Operations]',
+    vp: 'Krishna Wagh',
     leads: ['Logistics Lead', 'Delivery Lead', 'Compliance Lead']
   },
 {
@@ -64,7 +64,7 @@ const departments = [
         'Manages financial planning, budgeting, and resource allocation to ensure sustainable growth and operational efficiency for ELC.',
     cSuite: ['Ruchit Bhalodiya'],
     vp: 'Luvkishan Agrawal',
-    leads: ['Logistics Lead', 'Delivery Lead', 'Compliance Lead']
+    leads: ['Khushi Jain (Team Leader)', 'Prakash']
   }
 
 ];

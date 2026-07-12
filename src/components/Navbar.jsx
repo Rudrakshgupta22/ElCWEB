@@ -183,17 +183,11 @@ function PremiumMatteNavbar() {
         
         {/* Left Side: Logo Block */}
         <a href="#hero" className="flex items-center gap-4">
-          <div className="flex h-12 w-12 items-center justify-center bg-[#E5B05C] text-[#0A192F] font-black text-xl">
-            ELC
-          </div>
-          <div className="hidden flex-col md:flex">
-            <span className="text-[15px] font-bold tracking-widest text-white uppercase leading-tight">
-              Experiential Learning
-            </span>
-            <span className="text-xs font-medium tracking-[0.25em] text-[#E5B05C] uppercase">
-              Corporation
-            </span>
-          </div>
+          <img
+            src="/images/logo.png"
+            alt="ELC Logo"
+            className="h-10 w-auto object-contain md:h-12"
+          />
         </a>
 
         {/* Center: Premium Matte Glass Navigation */}
