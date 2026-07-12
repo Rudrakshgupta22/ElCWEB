@@ -151,7 +151,7 @@ const navigation = [
   { href: '#about', label: 'About' },
   { href: '#team', label: 'Team' },
   { href: '#events', label: 'Events' },
-  { href: '#partners', label: 'Partners' },
+  { href: '#sponsors', label: 'Partners' },
   { href: '#contact', label: 'Contact' }
 ];
 
