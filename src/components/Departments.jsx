@@ -55,7 +55,7 @@ const departments = [
       'Delivers end-to-end execution, process governance, event logistics, and quality delivery for all ELC initiatives.',
     cSuite: ['Mitanshu Agrawal'],
     vp: 'Krishna Wagh',
-    leads: ['Logistics Lead', 'Delivery Lead', 'Compliance Lead']
+    leads: ['Yash Pardesi (Team Leader)', 'Aditya Kundaliya', 'Aditya Pandey','Sapna','Anvesha']
   },
 {
     icon: '.',
