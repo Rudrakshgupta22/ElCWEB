@@ -177,11 +177,12 @@ function GalleryModal({ event, isOpen, onClose }) {
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm p-4"
+      className="fixed inset-0 z-50 overflow-y-auto bg-black/70 backdrop-blur-sm p-4"
       onClick={onClose}
     >
       <div
-        className="relative max-w-4xl w-full bg-white rounded-2xl overflow-hidden shadow-2xl"
+        className="relative mx-auto w-full max-w-4xl bg-white rounded-2xl overflow-hidden shadow-2xl"
+        style={{ minHeight: '100vh' }}
         onClick={(e) => e.stopPropagation()}
       >
         <button
