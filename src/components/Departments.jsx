@@ -37,7 +37,7 @@ const departments = [
       'Builds partner relationships, secures collaborations, and develops revenue-aligned sponsorship programs for ELC.',
     cSuite: ['Jiya Patel'],
     vp: 'Pal Jain',
-    leads: ['Shreya Anand (Team Leader)', 'Adtiya Tank', 'Khushi Bhatiya','Hiren Jurani']
+    leads: ['Shreya Anand (Team Leader)', 'Adtiya Tank', 'Khushi Bhatiya','Hiren Jhurani']
   },
   {
     icon: '.',
