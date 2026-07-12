@@ -9,7 +9,7 @@ const upcomingEvents = [
   { name: 'Roadies - 2.0', date: '25/09/2026 - 26/09/2026', type: 'Adventure' },
   { name: 'Octave Night', date: '03/10/2026', type: 'Cultural' },
   { name: 'Crime Run', date: '10/10/2026', type: 'Challenge' },
-  { name: 'Bread Butter Banter', date: '24/10/2026', type: 'Casual Meet' },
+  { name: 'Bread Butter Banter', date: '24/10/2026', type: 'Competitive' },
   { name: 'Daawat', date: '21/11/2026', type: 'Celebration' },
   { name: 'Mid-night Sunrise', date: '16/01/2027', type: 'Special Event' },
   { name: 'Senior\'s Farewell', date: '23/01/2027', type: 'Farewell' },
