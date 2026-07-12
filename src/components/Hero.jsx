@@ -2,7 +2,13 @@ function Hero() {
   return (
     <section
       id="hero"
-      className="relative overflow-hidden bg-gradient-to-br from-brand-navy via-brand-navy-light to-brand-navy pt-32 pb-24 sm:pb-32"
+      className="relative overflow-hidden pt-32 pb-24 sm:pb-32"
+      style={{
+        backgroundImage: `linear-gradient(rgba(11, 23, 45, 0.7), rgba(11, 23, 45, 0.7)), url('/images/homepage.png')`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+      }}
     >
       <div className="pointer-events-none absolute inset-0 opacity-10">
         <svg className="h-full w-full" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">

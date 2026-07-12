@@ -42,7 +42,7 @@ function About() {
             <p className="mt-3 text-sm uppercase tracking-[0.24em] text-gray-300">Industry Partners</p>
           </div>
           <div className="rounded-2xl border-2 border-brand-navy bg-brand-navy p-8 shadow-card text-center">
-            <div className="text-5xl font-black text-brand-gold">5</div>
+            <div className="text-5xl font-black text-brand-gold">6</div>
             <p className="mt-3 text-sm uppercase tracking-[0.24em] text-gray-300">Departments</p>
           </div>
         </div>

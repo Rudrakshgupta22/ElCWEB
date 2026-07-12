@@ -21,16 +21,28 @@ const flagshipEvents = [
   {
     name: 'Roadies',
     description: 'A Thrilling flagship event packed with adventure and physical challenges ,where students push their limits to earn the title "Roadie of the Year"',
-   // detailedDescription: 'Join industry titans, entrepreneurs, and thought leaders for a transformative experience featuring keynote sessions, panel discussions, and exclusive networking opportunities.',
+    detailedDescription: 'Roadies is ELCs flagship adventure event that challenges students to step beyond their comfort zones through a series of thrilling physical, strategic, and team-based tasks. ',
     stats: [
       { value: '500+', label: 'Participants' },
       { value: '20K+', label: 'Online Reach' },
       { value: '30+', label: 'Speakers' }
     ],
     galleryImages: [
-      { id: 1, alt: 'Leadership Summit Keynote' },
-      { id: 2, alt: 'Networking Session' },
-      { id: 3, alt: 'Panel Discussion' }
+      {
+        id: 1,
+        src: '/images/eventgallery/roadies/img.png',
+        alt: 'Leadership Summit Keynote'
+      },
+      {
+        id: 2,
+        src: '/images/eventgallery/roadies/trophy.png.jpeg',
+        alt: 'Networking Session'
+      },
+      {
+        id: 3,
+        src: '/images/eventgallery/roadies/imgg.png',
+        alt: 'Panel Discussion'
+      }
     ]
   },
   {
@@ -43,9 +55,21 @@ const flagshipEvents = [
       { value: '10+', label: 'Mentors' }
     ],
     galleryImages: [
-      { id: 1, alt: 'Workshop Session' },
-      { id: 2, alt: 'Hands-on Training' },
-      { id: 3, alt: 'Group Learning' }
+      {
+        id: 1,
+        src: '/images/eventgallery/daawat/dw1.jpeg',
+        alt: 'Workshop Session'
+      },
+      {
+        id: 2,
+        src: '/images/eventgallery/daawat/dw2.jpeg',
+        alt: 'Hands-on Training'
+      },
+      {
+        id: 3,
+        src: '/images/eventgallery/daawat/dw3.jpeg',
+        alt: 'Group Learning'
+      }
     ]
   },
   {
@@ -58,9 +82,21 @@ const flagshipEvents = [
       { value: '₹50K', label: 'Prize Pool' }
     ],
     galleryImages: [
-      { id: 1, alt: 'Hackathon Opening' },
-      { id: 2, alt: 'Team Collaboration' },
-      { id: 3, alt: 'Project Presentation' }
+      {
+        id: 1,
+        src: '/images/eventgallery/midnightsunrise/img1.png',
+        alt: 'Hackathon Opening'
+      },
+      {
+        id: 2,
+        src: '/images/eventgallery/midnightsunrise/img2.png',
+        alt: 'Team Collaboration'
+      },
+      {
+        id: 3,
+        src: '/images/eventgallery/midnightsunrise/img3.png',
+        alt: 'Project Presentation'
+      }
     ]
   }
 ];
@@ -170,7 +206,12 @@ function GalleryModal({ event, isOpen, onClose }) {
               >
                 <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-brand-navy/10 to-brand-gold/10">
                   <div className="text-center">
-                    <div className="text-4xl text-brand-gold/40 mb-2">📸</div>
+                    <div className="text-4xl text-brand-gold/40 mb-2"></div>
+                       <img
+      src={image.src}
+      alt={image.alt}
+      className={`rounded-lg ${event?.name === 'Roadies' && image.id === 2 ? 'max-w-full max-h-full object-contain' : 'w-full h-full object-cover'}`}
+    />
                     <p className="text-xs text-brand-navy/60">{image.alt}</p>
                   </div>
                 </div>
@@ -178,7 +219,7 @@ function GalleryModal({ event, isOpen, onClose }) {
             ))}
           </div>
           <p className="mt-6 text-xs text-brand-navy/60 text-center">
-            Note: Gallery images are placeholder previews. Add your event photos here.
+          
           </p>
         </div>
 
